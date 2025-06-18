@@ -1,0 +1,63 @@
+g++ -I . -I /RAID2/COURSE/2025_Spring/mlchip/mlchipTA01/systemc-2.3.3/include -L . -L /RAID2/COURSE/2025_Spring/mlchip/mlchipTA01/systemc-2.3.3/lib-linux64 -o run *.cpp -lsystemc-2.3.3 -Wl,-rpath,/RAID2/COURSE/2025_Spring/mlchip/mlchipTA01/systemc-2.3.3/lib-linux64
+In file included from main.cpp:5:0:
+router.h:36:21: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                     ^
+router.h:36:31: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                               ^
+router.h:36:38: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                      ^
+router.h:36:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                               ^
+router.h:36:56: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                                        ^
+router.h:36:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                   ^
+router.h:36:21: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                     ^
+router.h:36:29: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                             ^
+router.h:36:31: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                               ^
+router.h:36:36: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                    ^
+router.h:36:38: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                      ^
+router.h:36:45: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                             ^
+router.h:36:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                               ^
+router.h:36:54: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                                      ^
+router.h:36:56: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const int LEFT{0}, RIGHT{1}, UP{2}, DOWN{3}, CORE{4};
+                                                        ^
+./run 
+
+        SystemC 2.3.3-Accellera --- Mar  4 2025 01:46:38
+        Copyright (c) 1996-2018 by all Contributors,
+        ALL RIGHTS RESERVED
+
+  ============================                  
+  +                          +         |\__|\ 
+  +   [0m[1;32mCongratulations !![0m     +        / O.O  |  
+  +                          +      /_____   |  
+  +   Simulation completed   +     /^ ^ ^ \  | 
+  +   at 140 th cycle        +    |^ ^ ^ ^ |w| 
+  +                          +     \m___m__|_| 
+  ============================                  
+
+Info: /OSCI/SystemC: Simulation stopped by user.

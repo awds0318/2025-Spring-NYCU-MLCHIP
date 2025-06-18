@@ -1,0 +1,658 @@
+
+        SystemC 2.3.3-Accellera --- Mar  4 2025 01:46:38
+        Copyright (c) 1996-2018 by all Contributors,
+        ALL RIGHTS RESERVED
+[INFO] Controller ask for layer_id = 1 | layer_id_type = 0
+header flit: 1000000001100000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 1
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 1
+[Info] Router_1 received a header flit from input port 0 to output port 4
+[INFO] Wait for RVALID | next_load = 1
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 1
+[INFO] Controller ask for layer_id = 1 | layer_id_type = 1
+header flit: 1000000001110000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 1 | layer_id_type = 1
+header flit: 1000000001110000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 1 | layer_id_type = 1
+header flit: 1000000001110000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 2
+[INFO] Wait for RVALID | next_load = 2
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 2
+[INFO] PE_1 get weight
+[INFO] Weight num: 23232
+[INFO] Bias num: 0
+[Info] Router_1 received a header flit from input port 0 to output port 4
+[INFO] Controller ask for layer_id = 2 | layer_id_type = 0
+header flit: 1000000010100000000000000000000000
+2 flits in tx_queue.
+[Info] recieve_flit: 10
+is_bias= 1
+Source: 0, Dst: 1
+[INFO] Controller ask for layer_id = 2 | layer_id_type = 0
+header flit: 1000000010100000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 2 | layer_id_type = 0
+header flit: 1000000010100000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 3
+[INFO] Wait for RVALID | next_load = 3
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 3
+[INFO] PE_1 get bias
+[INFO] Weight num: 23232
+[INFO] Bias num: 64
+[INFO] Weight[0]: 0.11864
+[INFO] Weight[1]: 0.094069
+[INFO] Weight[2]: 0.095435
+[INFO] Weight[3]: 0.105151
+[INFO] Weight[last]: 0.090307
+[INFO] Bias[0]: -0.970546
+[INFO] Bias[last]: -0.014617
+[Info] Router_1 received a header flit from input port 0 to output port 1
+[Info] Router_2 received a header flit from input port 0 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 2
+[INFO] Controller ask for layer_id = 2 | layer_id_type = 1
+header flit: 1000000010110000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 2 | layer_id_type = 1
+header flit: 1000000010110000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 2 | layer_id_type = 1
+header flit: 1000000010110000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 4
+[INFO] Wait for RVALID | next_load = 4
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 4
+[Info] Router_1 received a header flit from input port 0 to output port 1
+[INFO] PE_2 get weight
+[INFO] Weight num: 307200
+[INFO] Bias num: 0
+[Info] Router_2 received a header flit from input port 0 to output port 4
+[Info] recieve_flit: 10
+is_bias= 1
+Source: 0, Dst: 2
+[INFO] Controller ask for layer_id = 3 | layer_id_type = 0
+header flit: 1000000011100000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 3 | layer_id_type = 0
+header flit: 1000000011100000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 3 | layer_id_type = 0
+header flit: 1000000011100000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 5
+[INFO] Wait for RVALID | next_load = 5
+[Info] Router_0 received a header flit from input port 4 to output port 0
+[INFO] Wait for RVALID | next_load = 5
+[Info] Router_3 received a header flit from input port 1 to output port 4
+[INFO] PE_2 get bias
+[INFO] Weight num: 307200
+[INFO] Bias num: 192
+[INFO] Weight[0]: 0.003625
+[INFO] Weight[1]: 0.001434
+[INFO] Weight[2]: 0.037217
+[INFO] Weight[3]: -0.020926
+[INFO] Weight[last]: 0.02433
+[INFO] Bias[0]: -0.10928
+[INFO] Bias[last]: 0.072982
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 3
+[INFO] Controller ask for layer_id = 3 | layer_id_type = 1
+header flit: 1000000011110000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 3 | layer_id_type = 1
+header flit: 1000000011110000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 3 | layer_id_type = 1
+header flit: 1000000011110000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 6
+[INFO] Wait for RVALID | next_load = 6
+[Info] Router_0 received a header flit from input port 4 to output port 0
+[INFO] Wait for RVALID | next_load = 6
+[INFO] PE_3 get weight
+[INFO] Weight num: 663552
+[INFO] Bias num: 0
+[Info] Router_3 received a header flit from input port 1 to output port 4
+[Info] recieve_flit: 10
+is_bias= 1
+Source: 0, Dst: 3
+[INFO] Controller ask for layer_id = 4 | layer_id_type = 0
+header flit: 1000000111100000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 4 | layer_id_type = 0
+header flit: 1000000111100000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 4 | layer_id_type = 0
+header flit: 1000000111100000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 7
+[INFO] Wait for RVALID | next_load = 7
+[Info] Router_0 received a header flit from input port 4 to output port 0
+[INFO] Wait for RVALID | next_load = 7
+[INFO] PE_3 get bias
+[INFO] Weight num: 663552
+[INFO] Bias num: 384
+[INFO] Weight[0]: 0.024858
+[INFO] Weight[1]: 0.013116
+[INFO] Weight[2]: 0.028198
+[INFO] Weight[3]: 0.042541
+[INFO] Weight[last]: -0.057636
+[INFO] Bias[0]: 0.025296
+[INFO] Bias[last]: -0.011489
+[Info] Router_3 received a header flit from input port 1 to output port 3
+[Info] Router_7 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 7
+[INFO] Controller ask for layer_id = 4 | layer_id_type = 1
+header flit: 1000000111110000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 4 | layer_id_type = 1
+header flit: 1000000111110000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 4 | layer_id_type = 1
+header flit: 1000000111110000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 8
+[INFO] Wait for RVALID | next_load = 8
+[Info] Router_0 received a header flit from input port 4 to output port 0
+[INFO] Wait for RVALID | next_load = 8
+[Info] Router_3 received a header flit from input port 1 to output port 3
+[INFO] PE_7 get weight
+[INFO] Weight num: 884736
+[INFO] Bias num: 0
+[Info] Router_7 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 1
+Source: 0, Dst: 7
+[INFO] Controller ask for layer_id = 5 | layer_id_type = 0
+header flit: 1000000110100000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 5 | layer_id_type = 0
+header flit: 1000000110100000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 5 | layer_id_type = 0
+header flit: 1000000110100000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 9
+[INFO] Wait for RVALID | next_load = 9
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 9
+[Info] Router_1 received a header flit from input port 0 to output port 1
+[Info] Router_2 received a header flit from input port 0 to output port 3
+[INFO] PE_7 get bias
+[INFO] Weight num: 884736
+[INFO] Bias num: 256
+[INFO] Weight[0]: -0.001973
+[INFO] Weight[1]: -0.008145
+[INFO] Weight[2]: -0.011364
+[INFO] Weight[3]: -0.019331
+[INFO] Weight[last]: 0.006778
+[INFO] Bias[0]: -0.062908
+[INFO] Bias[last]: 0.143427
+[Info] Router_6 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 6
+[INFO] Controller ask for layer_id = 5 | layer_id_type = 1
+header flit: 1000000110110000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 5 | layer_id_type = 1
+header flit: 1000000110110000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 5 | layer_id_type = 1
+header flit: 1000000110110000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 10
+[INFO] Wait for RVALID | next_load = 10
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 10
+[Info] Router_1 received a header flit from input port 0 to output port 1
+[Info] Router_2 received a header flit from input port 0 to output port 3
+[INFO] PE_6 get weight
+[INFO] Weight num: 589824
+[INFO] Bias num: 0
+[Info] Router_6 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 1
+Source: 0, Dst: 6
+[INFO] Controller ask for layer_id = 6 | layer_id_type = 0
+header flit: 1000000101100000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 6 | layer_id_type = 0
+header flit: 1000000101100000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 6 | layer_id_type = 0
+header flit: 1000000101100000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 11
+[INFO] Wait for RVALID | next_load = 11
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 11
+[Info] Router_1 received a header flit from input port 0 to output port 3
+[Info] Router_5 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 5
+[INFO] PE_6 get bias
+[INFO] Weight num: 589824
+[INFO] Bias num: 256
+[INFO] Weight[0]: 0.004501
+[INFO] Weight[1]: -0.007735
+[INFO] Weight[2]: -0.015003
+[INFO] Weight[3]: -0.030285
+[INFO] Weight[last]: 0.00075
+[INFO] Bias[0]: 0.037964
+[INFO] Bias[last]: -0.066487
+[INFO] Controller ask for layer_id = 6 | layer_id_type = 1
+header flit: 1000000101110000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 6 | layer_id_type = 1
+header flit: 1000000101110000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 6 | layer_id_type = 1
+header flit: 1000000101110000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 12
+[INFO] Wait for RVALID | next_load = 12
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 12
+[Info] Router_1 received a header flit from input port 0 to output port 3
+[INFO] PE_5 get weight
+[INFO] Weight num: 37748736
+[INFO] Bias num: 0
+[Info] Router_5 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 1
+Source: 0, Dst: 5
+[INFO] Controller ask for layer_id = 7 | layer_id_type = 0
+header flit: 1000000100100000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 7 | layer_id_type = 0
+header flit: 1000000100100000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 7 | layer_id_type = 0
+header flit: 1000000100100000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 13
+[INFO] Wait for RVALID | next_load = 13
+[Info] Router_0 received a header flit from input port 4 to output port 3
+[INFO] Wait for RVALID | next_load = 13
+[Info] Router_4 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 4
+[INFO] PE_5 get bias
+[INFO] Weight num: 37748736
+[INFO] Bias num: 4096
+[INFO] Weight[0]: 0.004002
+[INFO] Weight[1]: 0.006094
+[INFO] Weight[2]: 0.013376
+[INFO] Weight[3]: 0.009566
+[INFO] Weight[last]: -0.004463
+[INFO] Bias[0]: 0.032357
+[INFO] Bias[last]: 0.009528
+[INFO] Controller ask for layer_id = 7 | layer_id_type = 1
+header flit: 1000000100110000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 7 | layer_id_type = 1
+header flit: 1000000100110000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 7 | layer_id_type = 1
+header flit: 1000000100110000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 14
+[INFO] Wait for RVALID | next_load = 14
+[Info] Router_0 received a header flit from input port 4 to output port 3
+[INFO] Wait for RVALID | next_load = 14
+[INFO] PE_4 get weight
+[INFO] Weight num: 16777216
+[INFO] Bias num: 0
+[Info] Router_4 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 1
+Source: 0, Dst: 4
+[INFO] Controller ask for layer_id = 8 | layer_id_type = 0
+header flit: 1000001100100000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 8 | layer_id_type = 0
+header flit: 1000001100100000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 8 | layer_id_type = 0
+header flit: 1000001100100000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 15
+[INFO] Wait for RVALID | next_load = 15
+[Info] Router_0 received a header flit from input port 4 to output port 2
+[INFO] Wait for RVALID | next_load = 15
+[INFO] PE_4 get bias
+[INFO] Weight num: 16777216
+[INFO] Bias num: 4096
+[INFO] Weight[0]: -0.010732
+[INFO] Weight[1]: -0.001495
+[INFO] Weight[2]: 0.005686
+[INFO] Weight[3]: -0.030029
+[INFO] Weight[last]: 0.005506
+[INFO] Bias[0]: 0.04886
+[INFO] Bias[last]: 0.08018
+[Info] Router_12 received a header flit from input port 3 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 12
+[INFO] Controller ask for layer_id = 8 | layer_id_type = 1
+header flit: 1000001100110000000000000000000000
+2 flits in tx_queue.
+[INFO] Controller ask for layer_id = 8 | layer_id_type = 1
+header flit: 1000001100110000000000000000000000
+1 flits in tx_queue.
+[INFO] Controller ask for layer_id = 8 | layer_id_type = 1
+header flit: 1000001100110000000000000000000000
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 16
+[INFO] Wait for RVALID | next_load = 16
+[Info] Router_0 received a header flit from input port 4 to output port 2
+[INFO] Wait for RVALID | next_load = 16
+[INFO] PE_12 get weight
+[INFO] Weight num: 4096000
+[INFO] Bias num: 0
+[Info] Router_12 received a header flit from input port 3 to output port 4
+[Info] recieve_flit: 10
+is_bias= 1
+Source: 0, Dst: 12
+[INFO] Fetch Img 
+[INFO] Fetch Img 
+[INFO] Fetch Img 
+[INFO] Wait for RVALID | next_load = 17
+[INFO] Wait for RVALID | next_load = 17
+[Info] Router_0 received a header flit from input port 4 to output port 1
+[INFO] Wait for RVALID | next_load = 17
+[INFO] PE_12 get bias
+[INFO] Weight num: 4096000
+[INFO] Bias num: 992
+[INFO] Weight[0]: 0.032726
+[INFO] Weight[1]: -0.006153
+[INFO] Weight[2]: -0.003957
+[INFO] Weight[3]: -0.006606
+[INFO] Weight[last]: 0.018478
+[INFO] Bias[0]: 0.053252
+[INFO] Bias[last]: -0.068346
+[Info] Router_1 received a header flit from input port 0 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 0, Dst: 1
+[INFO] PE_1 recieve op
+[INFO] Src: 0
+[INFO] Dst: 1
+[INFO] Op_id: 1
+[INFO] Weight num: 23232
+[INFO] Bias num: 64
+[INFO] Input Feature num: 150528
+[INFO]PE_1: get_packet->datasize:46656
+[INFO] Core_1 form the header flit.
+[INFO] Core_1 form the tail flit.
+[Info] Router_1 received a header flit from input port 4 to output port 1
+[Info] Router_2 received a header flit from input port 0 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 1, Dst: 2
+[INFO] PE_2 recieve op
+[INFO] Src: 1
+[INFO] Dst: 2
+[INFO] Op_id: 1
+[INFO] Weight num: 307200
+[INFO] Bias num: 192
+[INFO] Input Feature num: 46656
+[INFO]PE_2: get_packet->datasize:32448
+[INFO] Core_2 form the header flit.
+[INFO] Core_2 form the tail flit.
+[Info] Router_2 received a header flit from input port 4 to output port 1
+[Info] Router_3 received a header flit from input port 0 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 2, Dst: 3
+[INFO] PE_3 recieve op
+[INFO] Src: 2
+[INFO] Dst: 3
+[INFO] Op_id: 2
+[INFO] Weight num: 663552
+[INFO] Bias num: 384
+[INFO] Input Feature num: 32448
+[INFO]PE_3: get_packet->datasize:64896
+[INFO] Core_3 form the header flit.
+[INFO] Core_3 form the tail flit.
+[Info] Router_3 received a header flit from input port 4 to output port 3
+[Info] Router_7 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 3, Dst: 7
+[INFO] PE_7 recieve op
+[INFO] Src: 3
+[INFO] Dst: 7
+[INFO] Op_id: 2
+[INFO] Weight num: 884736
+[INFO] Bias num: 256
+[INFO] Input Feature num: 64896
+[INFO]PE_7: get_packet->datasize:43264
+[INFO] Core_7 form the header flit.
+[INFO] Core_7 form the tail flit.
+[Info] Router_7 received a header flit from input port 4 to output port 0
+[Info] Router_6 received a header flit from input port 1 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 7, Dst: 6
+[INFO] PE_6 recieve op
+[INFO] Src: 7
+[INFO] Dst: 6
+[INFO] Op_id: 1
+[INFO] Weight num: 589824
+[INFO] Bias num: 256
+[INFO] Input Feature num: 43264
+[INFO]PE_6: get_packet->datasize:9216
+[INFO] Core_6 form the header flit.
+[INFO] Core_6 form the tail flit.
+[Info] Router_6 received a header flit from input port 4 to output port 0
+[Info] Router_5 received a header flit from input port 1 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 6, Dst: 5
+[INFO] PE_5 recieve op
+[INFO] Src: 6
+[INFO] Dst: 5
+[INFO] Op_id: 3
+[INFO] Weight num: 37748736
+[INFO] Bias num: 4096
+[INFO] Input Feature num: 9216
+[INFO]PE_5: get_packet->datasize:4096
+[INFO] Core_5 form the header flit.
+[INFO] Core_5 form the tail flit.
+[Info] Router_5 received a header flit from input port 4 to output port 0
+[Info] Router_4 received a header flit from input port 1 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 5, Dst: 4
+[INFO]PE_5: get_packet->datasize:4096
+[INFO] Core_5 form the header flit.
+[INFO] Core_5 form the tail flit.
+[INFO] PE_4 recieve op
+[INFO] Src: 5
+[INFO] Dst: 4
+[INFO] Op_id: 3
+[INFO] Weight num: 16777216
+[INFO] Bias num: 4096
+[INFO] Input Feature num: 4096
+[Info] Router_5 received a header flit from input port 4 to output port 0
+[INFO]PE_4: get_packet->datasize:4096
+[INFO] Core_4 form the header flit.
+[INFO] Core_4 form the tail flit.
+[Info] Router_4 received a header flit from input port 1 to output port 4
+[Info] Router_4 received a header flit from input port 4 to output port 3
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 5, Dst: 4
+[Info] Router_8 received a header flit from input port 2 to output port 3
+[Info] Router_12 received a header flit from input port 2 to output port 4
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 4, Dst: 12
+[INFO]PE_5: get_packet->datasize:4096
+[INFO] Core_5 form the header flit.
+[INFO] Core_5 form the tail flit.
+[INFO] PE_4 recieve op
+[INFO] Src: 5
+[INFO] Dst: 4
+[INFO] Op_id: 3
+[INFO] Weight num: 16777216
+[INFO] Bias num: 4096
+[INFO] Input Feature num: 4096
+[Info] Router_5 received a header flit from input port 4 to output port 0
+[INFO]PE_4: get_packet->datasize:4096
+[INFO] Core_4 form the header flit.
+[INFO] Core_4 form the tail flit.
+[Info] Router_4 received a header flit from input port 1 to output port 4
+[Info] Router_4 received a header flit from input port 4 to output port 3
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 5, Dst: 4
+[INFO] PE_12 recieve op
+[INFO] Src: 4
+[INFO] Dst: 12
+[INFO] Op_id: 4
+[INFO] Weight num: 4096000
+[INFO] Bias num: 992
+[INFO] Input Feature num: 4096
+[Info] Router_8 received a header flit from input port 2 to output port 3
+[INFO]PE_12: get_packet->datasize:1000
+[INFO] Core_12 form the header flit.
+[INFO] Core_12 form the tail flit.
+[Info] Router_12 received a header flit from input port 2 to output port 4
+[Info] Router_12 received a header flit from input port 4 to output port 3
+[Info] recieve_flit: 10
+is_bias= 0
+Source: 4, Dst: 12
+[Info] Router_0 received a header flit from input port 2 to output port 4
+[INFO]PE_12: get_packet->datasize:1000
+[INFO] Core_12 form the header flit.
+[INFO] Core_12 form the tail flit.
+Top 100 classes:
+Total latency: 1920682
+=================================================
+  idx |      val | possibility | class name
+-------------------------------------------------
+  285 |    20.21 |       96.38 | Egyptian cat
+  281 |    16.14 |        1.65 | tabby
+  282 |    15.73 |        1.10 | tiger cat
+  287 |    14.79 |        0.43 | lynx
+  728 |    14.41 |        0.29 | plastic bag
+  330 |    12.73 |        0.05 | wood rabbit
+  331 |    12.19 |        0.03 | hare
+  457 |    10.94 |        0.01 | bow tie
+  335 |    10.67 |        0.01 | fox squirrel
+  463 |    10.57 |        0.01 | bucket
+  478 |    10.32 |        0.00 | carton
+  876 |    10.29 |        0.00 | tub
+  622 |    10.18 |        0.00 | lens cap
+  904 |    10.01 |        0.00 | window screen
+  700 |     9.56 |        0.00 | paper towel
+  278 |     9.39 |        0.00 | kit fox
+    8 |     9.29 |        0.00 | hen
+  284 |     9.21 |        0.00 | Siamese cat
+  722 |     8.80 |        0.00 | ping-pong ball
+  434 |     8.77 |        0.00 | bath towel
+  452 |     8.71 |        0.00 | bonnet
+  289 |     8.31 |        0.00 | snow leopard
+  753 |     8.30 |        0.00 | radiator
+  681 |     8.11 |        0.00 | notebook
+  673 |     8.04 |        0.00 | mouse
+  840 |     8.03 |        0.00 | swab
+  773 |     7.94 |        0.00 | saltshaker
+  782 |     7.90 |        0.00 | screen
+  896 |     7.71 |        0.00 | washbasin
+   44 |     7.70 |        0.00 | alligator lizard
+  719 |     7.69 |        0.00 | piggy bank
+  138 |     7.68 |        0.00 | bustard
+  998 |     7.62 |        0.00 | ear
+  543 |     7.52 |        0.00 | dumbbell
+  451 |     7.49 |        0.00 | bolo tie
+  283 |     7.40 |        0.00 | Persian cat
+  272 |     7.32 |        0.00 | coyote
+  999 |     7.25 |        0.00 | toilet tissue
+  769 |     7.23 |        0.00 | rule
+  713 |     7.14 |        0.00 | photocopier
+  760 |     7.12 |        0.00 | refrigerator
+  474 |     7.08 |        0.00 | cardigan
+  534 |     6.99 |        0.00 | dishwasher
+  797 |     6.94 |        0.00 | sleeping bag
+  552 |     6.93 |        0.00 | feather boa
+  793 |     6.93 |        0.00 | shower cap
+  322 |     6.92 |        0.00 | ringlet
+  288 |     6.91 |        0.00 | leopard
+  750 |     6.91 |        0.00 | quilt
+  897 |     6.84 |        0.00 | washer
+   36 |     6.83 |        0.00 | terrapin
+  326 |     6.76 |        0.00 | lycaenid
+  723 |     6.75 |        0.00 | pinwheel
+    7 |     6.72 |        0.00 | cock
+  333 |     6.66 |        0.00 | hamster
+  519 |     6.65 |        0.00 | crate
+  588 |     6.65 |        0.00 | hamper
+  883 |     6.54 |        0.00 | vase
+  725 |     6.50 |        0.00 | pitcher
+  438 |     6.46 |        0.00 | beaker
+  469 |     6.37 |        0.00 | caldron
+  350 |     6.36 |        0.00 | ibex
+  968 |     6.28 |        0.00 | cup
+  280 |     6.25 |        0.00 | grey fox
+  290 |     6.22 |        0.00 | jaguar
+   83 |     6.18 |        0.00 | prairie chicken
+  680 |     6.15 |        0.00 | nipple
+   41 |     6.13 |        0.00 | whiptail
+  572 |     6.13 |        0.00 | goblet
+  742 |     6.07 |        0.00 | printer
+  359 |     6.03 |        0.00 | black-footed ferret
+  353 |     6.01 |        0.00 | gazelle
+  937 |     5.96 |        0.00 | broccoli
+  862 |     5.94 |        0.00 | torch
+  286 |     5.91 |        0.00 | cougar
+  504 |     5.86 |        0.00 | coffee mug
+  855 |     5.81 |        0.00 | thimble
+  332 |     5.74 |        0.00 | Angora
+  400 |     5.73 |        0.00 | academic gown
+  845 |     5.69 |        0.00 | syringe
+   38 |     5.68 |        0.00 | banded gecko
+  271 |     5.63 |        0.00 | red wolf
+  357 |     5.61 |        0.00 | mink
+   47 |     5.60 |        0.00 | African chameleon
+  869 |     5.58 |        0.00 | trench coat
+  584 |     5.57 |        0.00 | hair slide
+  298 |     5.45 |        0.00 | mongoose
+  761 |     5.39 |        0.00 | remote control
+  470 |     5.38 |        0.00 | candle
+  636 |     5.36 |        0.00 | mailbag
+  620 |     5.35 |        0.00 | laptop
+  268 |     5.31 |        0.00 | Mexican hairless
+  273 |     5.31 |        0.00 | dingo
+  514 |     5.28 |        0.00 | cowboy boot
+  596 |     5.25 |        0.00 | hatchet
+  885 |     5.24 |        0.00 | velvet
+  929 |     5.23 |        0.00 | ice lolly
+  899 |     5.22 |        0.00 | water jug
+  473 |     5.20 |        0.00 | can opener
+  377 |     5.15 |        0.00 | marmoset
+=================================================
+Total latency: 1920682
+[Info] Router_12 received a header flit from input port 4 to output port 3
+
+Info: /OSCI/SystemC: Simulation stopped by user.

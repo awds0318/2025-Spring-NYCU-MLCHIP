@@ -1,0 +1,491 @@
+
+        SystemC 2.3.3-Accellera --- Mar  4 2025 01:46:38
+        Copyright (c) 1996-2018 by all Contributors,
+        ALL RIGHTS RESERVED
+[INFO] Controller ask for layer_id = 1 | layer_id_type = 0
+0 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 1
+[INFO] Wait for RVALID | next_load = 1
+[INFO] Wait for RVALID | next_load = 1
+recieve_flit: 10
+Source: 0, Dst: 1
+[INFO] Controller ask for layer_id = 1 | layer_id_type = 1
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 2
+[INFO] Wait for RVALID | next_load = 2
+[INFO] Wait for RVALID | next_load = 2
+23232th tail flit received.
+[INFO] PE_1 get weight
+[INFO] Weight num: 23232
+[INFO] Bias num: 0
+recieve_flit: 10
+Source: 0, Dst: 1
+[INFO] Controller ask for layer_id = 2 | layer_id_type = 0
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 3
+[INFO] Wait for RVALID | next_load = 3
+[INFO] Wait for RVALID | next_load = 3
+64th tail flit received.
+[INFO] PE_1 get bias
+[INFO] Weight num: 23232
+[INFO] Bias num: 64
+[INFO] Weight[0]: 0.11864
+[INFO] Weight[1]: 0.094069
+[INFO] Weight[2]: 0.095435
+[INFO] Weight[3]: 0.105151
+[INFO] Weight[last]: 0.090307
+[INFO] Bias[0]: -0.970546
+[INFO] Bias[last]: -0.014617
+recieve_flit: 10
+Source: 0, Dst: 2
+[INFO] Controller ask for layer_id = 2 | layer_id_type = 1
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 4
+[INFO] Wait for RVALID | next_load = 4
+[INFO] Wait for RVALID | next_load = 4
+307200th tail flit received.
+[INFO] PE_2 get weight
+[INFO] Weight num: 307200
+[INFO] Bias num: 0
+recieve_flit: 10
+Source: 0, Dst: 2
+[INFO] Controller ask for layer_id = 3 | layer_id_type = 0
+1 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 5
+[INFO] Wait for RVALID | next_load = 5
+[INFO] Wait for RVALID | next_load = 5
+192th tail flit received.
+[INFO] PE_2 get bias
+[INFO] Weight num: 307200
+[INFO] Bias num: 192
+[INFO] Weight[0]: 0.003625
+[INFO] Weight[1]: 0.001434
+[INFO] Weight[2]: 0.037217
+[INFO] Weight[3]: -0.020926
+[INFO] Weight[last]: 0.02433
+[INFO] Bias[0]: -0.10928
+[INFO] Bias[last]: 0.072982
+recieve_flit: 10
+Source: 0, Dst: 3
+[INFO] Controller ask for layer_id = 3 | layer_id_type = 1
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 6
+[INFO] Wait for RVALID | next_load = 6
+[INFO] Wait for RVALID | next_load = 6
+663552th tail flit received.
+[INFO] PE_3 get weight
+[INFO] Weight num: 663552
+[INFO] Bias num: 0
+recieve_flit: 10
+Source: 0, Dst: 3
+[INFO] Controller ask for layer_id = 4 | layer_id_type = 0
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 7
+[INFO] Wait for RVALID | next_load = 7
+[INFO] Wait for RVALID | next_load = 7
+384th tail flit received.
+[INFO] PE_3 get bias
+[INFO] Weight num: 663552
+[INFO] Bias num: 384
+[INFO] Weight[0]: 0.024858
+[INFO] Weight[1]: 0.013116
+[INFO] Weight[2]: 0.028198
+[INFO] Weight[3]: 0.042541
+[INFO] Weight[last]: -0.057636
+[INFO] Bias[0]: 0.025296
+[INFO] Bias[last]: -0.011489
+recieve_flit: 10
+Source: 0, Dst: 7
+[INFO] Controller ask for layer_id = 4 | layer_id_type = 1
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 8
+[INFO] Wait for RVALID | next_load = 8
+[INFO] Wait for RVALID | next_load = 8
+884736th tail flit received.
+[INFO] PE_7 get weight
+[INFO] Weight num: 884736
+[INFO] Bias num: 0
+recieve_flit: 10
+Source: 0, Dst: 7
+[INFO] Controller ask for layer_id = 5 | layer_id_type = 0
+1 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 9
+[INFO] Wait for RVALID | next_load = 9
+[INFO] Wait for RVALID | next_load = 9
+256th tail flit received.
+[INFO] PE_7 get bias
+[INFO] Weight num: 884736
+[INFO] Bias num: 256
+[INFO] Weight[0]: -0.001973
+[INFO] Weight[1]: -0.008145
+[INFO] Weight[2]: -0.011364
+[INFO] Weight[3]: -0.019331
+[INFO] Weight[last]: 0.006778
+[INFO] Bias[0]: -0.062908
+[INFO] Bias[last]: 0.143427
+recieve_flit: 10
+Source: 0, Dst: 6
+[INFO] Controller ask for layer_id = 5 | layer_id_type = 1
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 10
+[INFO] Wait for RVALID | next_load = 10
+[INFO] Wait for RVALID | next_load = 10
+589824th tail flit received.
+[INFO] PE_6 get weight
+[INFO] Weight num: 589824
+[INFO] Bias num: 0
+recieve_flit: 10
+Source: 0, Dst: 6
+[INFO] Controller ask for layer_id = 6 | layer_id_type = 0
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 11
+[INFO] Wait for RVALID | next_load = 11
+[INFO] Wait for RVALID | next_load = 11
+256th tail flit received.
+[INFO] PE_6 get bias
+[INFO] Weight num: 589824
+[INFO] Bias num: 256
+[INFO] Weight[0]: 0.004501
+[INFO] Weight[1]: -0.007735
+[INFO] Weight[2]: -0.015003
+[INFO] Weight[3]: -0.030285
+[INFO] Weight[last]: 0.00075
+[INFO] Bias[0]: 0.037964
+[INFO] Bias[last]: -0.066487
+recieve_flit: 10
+Source: 0, Dst: 5
+[INFO] Controller ask for layer_id = 6 | layer_id_type = 1
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 12
+[INFO] Wait for RVALID | next_load = 12
+[INFO] Wait for RVALID | next_load = 12
+37748736th tail flit received.
+[INFO] PE_5 get weight
+[INFO] Weight num: 37748736
+[INFO] Bias num: 0
+recieve_flit: 10
+Source: 0, Dst: 5
+[INFO] Controller ask for layer_id = 7 | layer_id_type = 0
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 13
+[INFO] Wait for RVALID | next_load = 13
+[INFO] Wait for RVALID | next_load = 13
+4096th tail flit received.
+[INFO] PE_5 get bias
+[INFO] Weight num: 37748736
+[INFO] Bias num: 4096
+[INFO] Weight[0]: 0.004002
+[INFO] Weight[1]: 0.006094
+[INFO] Weight[2]: 0.013376
+[INFO] Weight[3]: 0.009566
+[INFO] Weight[last]: -0.004463
+[INFO] Bias[0]: 0.032357
+[INFO] Bias[last]: 0.009528
+recieve_flit: 10
+Source: 0, Dst: 4
+[INFO] Controller ask for layer_id = 7 | layer_id_type = 1
+1 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 14
+[INFO] Wait for RVALID | next_load = 14
+16777216th tail flit received.
+[INFO] PE_4 get weight
+[INFO] Weight num: 16777216
+[INFO] Bias num: 0
+[INFO] Wait for RVALID | next_load = 14
+recieve_flit: 10
+Source: 0, Dst: 4
+[INFO] Controller ask for layer_id = 8 | layer_id_type = 0
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 15
+[INFO] Wait for RVALID | next_load = 15
+[INFO] Wait for RVALID | next_load = 15
+4096th tail flit received.
+[INFO] PE_4 get bias
+[INFO] Weight num: 16777216
+[INFO] Bias num: 4096
+[INFO] Weight[0]: -0.010732
+[INFO] Weight[1]: -0.001495
+[INFO] Weight[2]: 0.005686
+[INFO] Weight[3]: -0.030029
+[INFO] Weight[last]: 0.005506
+[INFO] Bias[0]: 0.04886
+[INFO] Bias[last]: 0.08018
+recieve_flit: 10
+Source: 0, Dst: 12
+[INFO] Controller ask for layer_id = 8 | layer_id_type = 1
+2 flits in tx_queue.
+[INFO] Wait for RVALID | next_load = 16
+[INFO] Wait for RVALID | next_load = 16
+[INFO] Wait for RVALID | next_load = 16
+4096000th tail flit received.
+[INFO] PE_12 get weight
+[INFO] Weight num: 4096000
+[INFO] Bias num: 0
+recieve_flit: 10
+Source: 0, Dst: 12
+[INFO] Fetch Img 
+[INFO] Wait for RVALID | next_load = 17
+[INFO] Wait for RVALID | next_load = 17
+1000th tail flit received.
+[INFO] PE_12 get bias
+[INFO] Weight num: 4096000
+[INFO] Bias num: 1000
+[INFO] Weight[0]: 0.032726
+[INFO] Weight[1]: -0.006153
+[INFO] Weight[2]: -0.003957
+[INFO] Weight[3]: -0.006606
+[INFO] Weight[last]: 0.018478
+[INFO] Bias[0]: 0.053252
+[INFO] Bias[last]: 0.023731
+[INFO] Wait for RVALID | next_load = 17
+recieve_flit: 10
+Source: 0, Dst: 1
+150528th tail flit received.
+[INFO] PE_1 recieve op
+[INFO] Src: 0
+[INFO] Dst: 1
+[INFO] Op_id: 1
+[INFO] Weight num: 23232
+[INFO] Bias num: 64
+[INFO] Input Feature num: 150528
+[INFO]PE_1: get_packet->datasize:46656
+is_parameter= 0
+is_bias= 0
+[INFO] Core_1 form the tail flit.
+recieve_flit: 10
+Source: 1, Dst: 2
+46656th tail flit received.
+[INFO] PE_2 recieve op
+[INFO] Src: 1
+[INFO] Dst: 2
+[INFO] Op_id: 1
+[INFO] Weight num: 307200
+[INFO] Bias num: 192
+[INFO] Input Feature num: 46656
+[INFO]PE_2: get_packet->datasize:32448
+is_parameter= 0
+is_bias= 0
+[INFO] Core_2 form the tail flit.
+recieve_flit: 10
+Source: 2, Dst: 3
+32448th tail flit received.
+[INFO] PE_3 recieve op
+[INFO] Src: 2
+[INFO] Dst: 3
+[INFO] Op_id: 2
+[INFO] Weight num: 663552
+[INFO] Bias num: 384
+[INFO] Input Feature num: 32448
+[INFO]PE_3: get_packet->datasize:64896
+is_parameter= 0
+is_bias= 0
+[INFO] Core_3 form the tail flit.
+recieve_flit: 10
+Source: 3, Dst: 7
+64896th tail flit received.
+[INFO] PE_7 recieve op
+[INFO] Src: 3
+[INFO] Dst: 7
+[INFO] Op_id: 2
+[INFO] Weight num: 884736
+[INFO] Bias num: 256
+[INFO] Input Feature num: 64896
+[INFO]PE_7: get_packet->datasize:43264
+is_parameter= 0
+is_bias= 0
+[INFO] Core_7 form the tail flit.
+recieve_flit: 10
+Source: 7, Dst: 6
+43264th tail flit received.
+[INFO] PE_6 recieve op
+[INFO] Src: 7
+[INFO] Dst: 6
+[INFO] Op_id: 1
+[INFO] Weight num: 589824
+[INFO] Bias num: 256
+[INFO] Input Feature num: 43264
+[INFO]PE_6: get_packet->datasize:9216
+is_parameter= 0
+is_bias= 0
+[INFO] Core_6 form the tail flit.
+recieve_flit: 10
+Source: 6, Dst: 5
+9216th tail flit received.
+[INFO] PE_5 recieve op
+[INFO] Src: 6
+[INFO] Dst: 5
+[INFO] Op_id: 3
+[INFO] Weight num: 37748736
+[INFO] Bias num: 4096
+[INFO] Input Feature num: 9216
+[INFO]PE_5: get_packet->datasize:4096
+is_parameter= 0
+is_bias= 0
+[INFO] Core_5 form the tail flit.
+recieve_flit: 10
+Source: 5, Dst: 4
+[INFO]PE_5: get_packet->datasize:4096
+is_parameter= 0
+is_bias= 0
+[INFO] Core_5 form the tail flit.
+4096th tail flit received.
+[INFO] PE_4 recieve op
+[INFO] Src: 5
+[INFO] Dst: 4
+[INFO] Op_id: 3
+[INFO] Weight num: 16777216
+[INFO] Bias num: 4096
+[INFO] Input Feature num: 4096
+[INFO]PE_4: get_packet->datasize:4096
+is_parameter= 0
+is_bias= 0
+[INFO] Core_4 form the tail flit.
+recieve_flit: 10
+Source: 5, Dst: 4
+recieve_flit: 10
+Source: 4, Dst: 12
+[INFO]PE_5: get_packet->datasize:4096
+is_parameter= 0
+is_bias= 0
+[INFO] Core_5 form the tail flit.
+4096th tail flit received.
+[INFO] PE_4 recieve op
+[INFO] Src: 5
+[INFO] Dst: 4
+[INFO] Op_id: 3
+[INFO] Weight num: 16777216
+[INFO] Bias num: 4096
+[INFO] Input Feature num: 4096
+[INFO]PE_4: get_packet->datasize:4096
+is_parameter= 0
+is_bias= 0
+[INFO] Core_4 form the tail flit.
+recieve_flit: 10
+Source: 5, Dst: 4
+4096th tail flit received.
+[INFO] PE_12 recieve op
+[INFO] Src: 4
+[INFO] Dst: 12
+[INFO] Op_id: 4
+[INFO] Weight num: 4096000
+[INFO] Bias num: 1000
+[INFO] Input Feature num: 4096
+[INFO]PE_12: get_packet->datasize:1000
+is_parameter= 0
+is_bias= 0
+[INFO] Core_12 form the tail flit.
+recieve_flit: 10
+Source: 4, Dst: 12
+[INFO]PE_12: get_packet->datasize:1000
+is_parameter= 0
+is_bias= 0
+[INFO] Core_12 form the tail flit.
+Top 100 classes:
+Total latency: 61457157
+=================================================
+  idx |      val | possibility | class name
+-------------------------------------------------
+  207 |    16.59 |       38.63 | golden retriever
+  175 |    15.57 |       13.86 | otterhound
+  220 |    15.36 |       11.26 | Sussex spaniel
+  163 |    15.00 |        7.86 | bloodhound
+  219 |    14.59 |        5.22 | cocker spaniel
+  168 |    14.39 |        4.28 | redbone
+  160 |    14.35 |        4.07 | Afghan hound
+  213 |    14.18 |        3.46 | Irish setter
+  291 |    14.10 |        3.19 | lion
+  211 |    13.01 |        1.07 | vizsla
+  244 |    12.81 |        0.88 | Tibetan mastiff
+  216 |    12.69 |        0.78 | clumber
+  200 |    12.46 |        0.62 | Tibetan terrier
+  159 |    12.42 |        0.59 | Rhodesian ridgeback
+  152 |    12.38 |        0.57 | Japanese spaniel
+  167 |    12.01 |        0.39 | English foxhound
+  208 |    11.65 |        0.28 | Labrador retriever
+  294 |    11.63 |        0.27 | brown bear
+  165 |    11.51 |        0.24 | black-and-tan coonhound
+  262 |    11.46 |        0.23 | Brabancon griffon
+  156 |    11.40 |        0.21 | Blenheim spaniel
+  185 |    11.29 |        0.19 | Norfolk terrier
+  260 |    11.11 |        0.16 | chow
+  267 |    11.08 |        0.16 | standard poodle
+  365 |    10.87 |        0.13 | orangutan
+  154 |    10.74 |        0.11 | Pekinese
+  368 |    10.70 |        0.11 | gibbon
+  215 |    10.66 |        0.10 | Brittany spaniel
+  161 |    10.59 |        0.10 | basset
+  214 |    10.47 |        0.08 | Gordon setter
+  176 |    10.39 |        0.08 | Saluki
+  212 |    10.31 |        0.07 | English setter
+  852 |     9.88 |        0.05 | tennis ball
+  255 |     9.87 |        0.05 | Leonberg
+  194 |     9.77 |        0.04 | Dandie Dinmont
+  672 |     9.59 |        0.04 | mountain tent
+  274 |     9.44 |        0.03 | dhole
+  335 |     9.44 |        0.03 | fox squirrel
+  371 |     9.40 |        0.03 | patas
+  190 |     9.31 |        0.03 | Sealyham terrier
+  384 |     9.29 |        0.03 | indri
+  193 |     9.15 |        0.02 | Australian terrier
+  166 |     9.00 |        0.02 | Walker hound
+  206 |     8.92 |        0.02 | curly-coated retriever
+  380 |     8.90 |        0.02 | titi
+  170 |     8.86 |        0.02 | Irish wolfhound
+  191 |     8.85 |        0.02 | Airedale
+  379 |     8.84 |        0.02 | howler monkey
+  243 |     8.77 |        0.02 | bull mastiff
+  189 |     8.59 |        0.01 | Lakeland terrier
+  218 |     8.57 |        0.01 | Welsh springer spaniel
+  182 |     8.53 |        0.01 | Border terrier
+  187 |     8.53 |        0.01 | Yorkshire terrier
+  209 |     8.51 |        0.01 | Chesapeake Bay retriever
+  273 |     8.37 |        0.01 | dingo
+  222 |     8.32 |        0.01 | kuvasz
+  226 |     8.29 |        0.01 | briard
+  382 |     8.23 |        0.01 | squirrel monkey
+  169 |     8.18 |        0.01 | borzoi
+  373 |     8.17 |        0.01 | macaque
+  256 |     8.12 |        0.01 | Newfoundland
+  155 |     8.09 |        0.01 | Shih-Tzu
+  186 |     8.04 |        0.01 | Norwich terrier
+  299 |     7.83 |        0.01 | meerkat
+  184 |     7.82 |        0.01 | Irish terrier
+  164 |     7.74 |        0.01 | bluetick
+  162 |     7.70 |        0.01 | beagle
+  292 |     7.63 |        0.00 | tiger
+  266 |     7.62 |        0.00 | miniature poodle
+  298 |     7.44 |        0.00 | mongoose
+  231 |     7.40 |        0.00 | collie
+  257 |     7.33 |        0.00 | Great Pyrenees
+  158 |     7.33 |        0.00 | toy terrier
+  181 |     7.31 |        0.00 | Bedlington terrier
+  188 |     7.28 |        0.00 | wire-haired fox terrier
+  265 |     7.28 |        0.00 | toy poodle
+  247 |     7.25 |        0.00 | Saint Bernard
+  264 |     7.23 |        0.00 | Cardigan
+  221 |     7.23 |        0.00 | Irish water spaniel
+  463 |     7.17 |        0.00 | bucket
+  101 |     7.14 |        0.00 | tusker
+  180 |     7.08 |        0.00 | American Staffordshire terrier
+  238 |     7.07 |        0.00 | Greater Swiss Mountain dog
+  201 |     7.03 |        0.00 | silky terrier
+  354 |     7.03 |        0.00 | Arabian camel
+  339 |     6.99 |        0.00 | sorrel
+  204 |     6.89 |        0.00 | Lhasa
+  235 |     6.88 |        0.00 | German shepherd
+  183 |     6.79 |        0.00 | Kerry blue terrier
+  271 |     6.77 |        0.00 | red wolf
+  286 |     6.66 |        0.00 | cougar
+  227 |     6.66 |        0.00 | kelpie
+  370 |     6.62 |        0.00 | guenon
+  252 |     6.60 |        0.00 | affenpinscher
+  372 |     6.52 |        0.00 | baboon
+  377 |     6.51 |        0.00 | marmoset
+  240 |     6.49 |        0.00 | Appenzeller
+  202 |     6.48 |        0.00 | soft-coated wheaten terrier
+  151 |     6.48 |        0.00 | Chihuahua
+  369 |     6.43 |        0.00 | siamang
+=================================================
+Total latency: 61457157
+
+Info: /OSCI/SystemC: Simulation stopped by user.
